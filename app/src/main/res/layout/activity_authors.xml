@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/authors1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Булычёв Артем"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/authors2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/authors1TextView"
+        android:text="Пахнин Матвей"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/authors3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/authors2TextView"
+        android:textColor="@color/textColor"
+        android:text="Исаев Владимир"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
